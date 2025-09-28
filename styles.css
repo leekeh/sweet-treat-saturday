@@ -1,0 +1,30 @@
+body {
+  background-color: lightyellow;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: black;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Estonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+  margin: 0;
+}
+
+hgroup {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+  font-size: 0.9em;
+}
+
+a {
+  color: inherit;
+}

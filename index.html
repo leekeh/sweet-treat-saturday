@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"
+    ></script>
+    <script type="module" src="components/treat-card.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="/favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Estonia&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sweet Treat Saturday</title>
+  </head>
+  <body>
+    <hgroup>
+      <h1>Sweet Treat Saturday</h1>
+      <p>
+        A tasty visual diary by
+        <a href="https://www.leekeh.com">leekeh</a>.
+      </p>
+    </hgroup>
+    <treat-card
+      treat-title="Cinnamon roll with miso and pepper"
+      img-id="270925cinnamon"
+      location-id="pompernikkel"
+      price="3.5"
+      review="Althought the miso and pepper don't really jump out, the pastry as a whole still was very pleasant. It is crunchy on the outside and fluffy on the inside, and the taste is nicely balanced. Perhaps there is a slight umami undertone thanks to the miso."
+    ></treat-card>
+
+    <treat-card
+      id="fig-1"
+      treat-title="Pastry with fig and cinnamon custard"
+      img-id="270925fig"
+      location-id="pompernikkel"
+      price="??"
+      review="There was extra fig under the custard. The custard flavor was a bit subtle, and could have been more pronounced. The pastry itself was nice and flaky, but it was missing some wow."
+    ></treat-card>
+
+    <footer>
+      <p>© 2025 <a href="https://www.leekeh.com">leekeh</a></p>
+    </footer>
+  </body>
+</html>

@@ -67,6 +67,7 @@ class TreatCard extends HTMLElement {
           padding: 20px;
           max-width: 800px;
           justify-self: center;
+          margin: auto;
         }
         
         h2 {
